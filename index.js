@@ -1,9 +1,10 @@
 const Manager = require("./library/Manager");
 const Engineer = require("./library/Engineer");
 const Intern = require("./library/Intern");
-const inquirer = require("inquirer");
-const path = require("path");
 const fs = require("fs");
+const path = require("path");
+const inquirer = require("inquirer");
+
 
 const outPut = path.resolve(__dirname, "output");
 const outputPath = path.join(outPut, "team.html");
